@@ -42,6 +42,9 @@
     <Project Path="src/Components/Aspire.StackExchange.Redis.OutputCaching/Aspire.StackExchange.Redis.OutputCaching.csproj" />
     <Project Path="src/Components/Aspire.StackExchange.Redis/Aspire.StackExchange.Redis.csproj" />
   </Folder>
+  <Folder Name="/Extensions/">
+    <Project Path="Extensions/Feast.Aspire.Hosting.Extensions.OpenDashboard/Feast.Aspire.Hosting.Extensions.OpenDashboard.csproj"/>
+  </Folder>
   <Folder Name="/Hosting/">
     <Project Path="src/Aspire.Cli/Aspire.Cli.csproj" />
     <Project Path="src/Aspire.Dashboard/Aspire.Dashboard.csproj" />
@@ -94,11 +97,11 @@
     <Project Path="src/Aspire.Hosting.Azure/Aspire.Hosting.Azure.csproj" />
   </Folder>
   <Folder Name="/playground/">
+    <Project Path="playground/Playground.ServiceDefaults/Playground.ServiceDefaults.csproj" />
     <File Path="playground/.editorconfig" />
     <File Path="playground/Directory.Build.props" />
     <File Path="playground/Directory.Build.targets" />
     <File Path="playground/README.md" />
-    <Project Path="playground/Playground.ServiceDefaults/Playground.ServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/playground/AzureAppService/">
     <Project Path="playground/AzureAppService/AzureAppService.ApiService/AzureAppService.ApiService.csproj" />
